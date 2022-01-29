@@ -7,11 +7,40 @@
 </head>
 
 <body>
+  <!-- Gjersing Contact Information -->
   <h1>Contact Information</h1>
   <h3>Christopher Gjersing</h3>
-  <p><strong>email:</strong> csgjersing@gmail.com</p>
-  <p><strong>phone:</strong> (702)619-1497</p>
+  <p><strong>email:</strong> <a href="mailto:csgjersing@gmail.com">csgjersing@gmail.com</a></p>
+  <p><strong>phone:</strong> (702) 619-1497</p>
   <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gjersing/">gjersing</a></p>
+
+  <!-- Guest Contact Entry Form -->
+  <hr>
+  <h2>Visitor Form</h2>
+  <form class="" action="mailto:csgjersing@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="name" name="name"><br><br>
+
+    <label>Your Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <label>Your Favorite Color:</label>
+    <input type="color" name="color"><br><br>
+
+    <label>Cats or dogs?</label><br>
+    <input type="radio" id="cats" name="animal" value="cats" checked>
+    <label for="cats">Cats</label><br>
+    <input type="radio" id="dogs" name="animal" value="dogs">
+    <label for="dogs">Dogs</label><br><br>
+
+    <label>Comments?</label><br>
+    <textarea name="comment" rows="6" cols="50"></textarea><br><br>
+
+    <label>Are you human?</label>
+    <input type="checkbox" name="human"><br><br>
+    <input type="submit" name="">
+  </form>
+  <br>
   <a href="index.html">Back to Main Menu</a>
 </body>
 

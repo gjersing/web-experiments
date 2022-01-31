@@ -1,3 +1,4 @@
+/** Element Selectors **/
 h1 {
   color: red;
   font-size: 48px;
@@ -7,6 +8,11 @@ img {
   height: 130px;
 }
 
+img:hover {
+  background-color: black;
+}
+
+/** Class Selectors **/
 .bacon {
   background-color: green;
 }
@@ -15,6 +21,16 @@ img {
   background-color: red;
 }
 
+.circular {
+  border-radius: 100%;
+}
+
+/** ID Selectors [NOT RECOMMENDED see linter] **/
 #heading {
   color: blue;
+}
+
+#heading:hover {
+  color: red;
+  font-size: 80px;
 }

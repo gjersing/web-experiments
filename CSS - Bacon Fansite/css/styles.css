@@ -2,3 +2,19 @@ h1 {
   color: red;
   font-size: 48px;
 }
+
+img {
+  height: 130px;
+}
+
+.bacon {
+  background-color: green;
+}
+
+.brocolli {
+  background-color: red;
+}
+
+#heading {
+  color: blue;
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: #1a191c;
+  color: #dbdbdb;
+}
+
+hr {
+  border: none;
+  border-top: dotted #C84B31;
+  border-width: 4px;
+  width: 100px;
+  margin-left: 5px;
+}
+
+img {
+  height: 200px;
+}
+
+h1,
+h3 {
+  color: #ECDBBA;
+}
+
+a:link,
+a:visited {
+  color: #C84B31;
+}

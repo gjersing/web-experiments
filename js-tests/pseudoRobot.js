@@ -1,4 +1,4 @@
-function getMilk(bottles) {   
+function getMilk(bottles, money) {   
   console.log("leaveHouse");
   console.log("moveRight");
   console.log("moveRight");
@@ -20,6 +20,8 @@ function getMilk(bottles) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
+  
+  return (money - cost);
 }
 
-getMilk(3);
+getMilk(3, 5);

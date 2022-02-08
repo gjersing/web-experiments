@@ -24,4 +24,5 @@ function getMilk(bottles, money) {
   return (money - cost);
 }
 
-getMilk(3, 5);
+var change = getMilk(3, 5);
+alert("Your change is ", change);
